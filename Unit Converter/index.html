@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Unit Converter</title>
+
+</head>
+
+<body>
+    <div class="logo">
+        <img src="/Images/logo.png" alt="">
+    </div>
+
+
+    <div class="converter">
+        <div id="cal_temp">
+            <h2>Unit Converter</h2> <br>
+
+            <div class="main">
+                <label for="inputValue">Value:</label>
+                <input type="number" id="inputValue" placeholder="Enter value">
+                <label for="unit">Unit:</label>
+                <select id="unit">
+                    <option value="km">Kilometers</option>
+                    <option value="mi">Miles</option>
+                    <option value="m">Meters</option>
+                    <option value="ft">Feet</option>
+                </select>
+            </div>
+            <h3>Result</h3>
+            <div class="result" id="result"></div>
+            <button onclick="convert()">Convert</button>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

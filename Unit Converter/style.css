@@ -1,0 +1,117 @@
+  * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  body {
+      background-color: rgb(178, 205, 247);
+  }
+
+  .logo {
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding: 24px;
+      max-height: 12vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .logo img {
+      width: 12pc;
+      height: 9pc;
+      margin-top: 18px;
+      margin-left: 0;
+  }
+
+  .converter {
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+
+  #cal_temp {
+      padding: 45px 67px;
+      background-color: #ffff;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px 0 rgb(59, 95, 212);
+  }
+
+  .converter label {
+      margin-bottom: 10px;
+  }
+
+  #inputValue,
+  #unit {
+      width: 100px;
+      height: 34px;
+      border-radius: 5px;
+      margin: 12px;
+      padding: 8px;
+      font-size: 14px;
+      border: none;
+      outline: none;
+  }
+
+  input,
+  select {
+      background-color: rgb(243, 244, 244);
+  }
+
+  label {
+      color: #585454;
+      font-weight: 600;
+  }
+
+  h3 {
+      font-size: 18px;
+      letter-spacing: 1px;
+      font-weight: 600;
+      margin-top: 10px;
+      color: #318CE7;
+  }
+
+  h2 {
+      font-size: 26px;
+      letter-spacing: 1px;
+      font-weight: 600;
+      color: #0066b2 ;
+  }
+
+  #unit {
+      width: 120px;
+      font-size: 14px;
+      padding: 5px;
+  }
+
+  .converter input[type="number"] {
+      width: 200px;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+  }
+
+  .converter button {
+      width: 100%;
+      margin: 45px 0 10px 0;
+      font-size: 18px;
+      background-color: #007FFF;
+      padding: 10px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+  }
+
+  .result {
+      margin-top: 25px;
+      font-weight: 600;
+      letter-spacing: 1px;
+  }
